@@ -1,0 +1,27 @@
+/* Párrafos*/
+
+p {
+ color: red;
+ font-size: 20px;
+}
+
+/* Títulos */
+
+h1 {
+    color: greenyellow;
+    font-size: 32px;
+}
+
+/* Encabezados */
+
+th {
+    color: blue;
+ font-size: 25px;
+}
+
+/* Datos */
+
+td {
+    color: darkturquoise;
+    font-size: 20px;
+}
