@@ -1,27 +1,70 @@
-/* Párrafos*/
+/* Todos los párrafos*/
 
 p {
  color: red;
  font-size: 20px;
 }
 
-/* Títulos */
+/* Todos los ítulos */
 
 h1 {
-    color: greenyellow;
+    color: rgb(48, 75, 8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 32px;
 }
 
-/* Encabezados */
+/* Todos los encabezados de tabla */
 
 th {
     color: blue;
  font-size: 25px;
 }
 
-/* Datos */
+/* Todos los datos de tabla */
 
 td {
     color: darkturquoise;
     font-size: 20px;
+}
+
+/* Clase Párrafo */
+
+.parrafo {
+    color: rgb(143, 112, 40);
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Clase de la área de texto*/
+
+.textarea{
+    background-color: rgb(64, 64, 126);
+}
+
+/* Todos los label */
+
+label{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Todos los botones */
+
+button{
+    background-color: rgb(0, 255, 255);
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border: 1px solid rgb(238, 0, 255);
+
+}
+
+/*Géneros*/
+.gen{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* intereses */
+
+.inte{
+    color: rgb(50, 50, 187);
 }
