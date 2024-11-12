@@ -35,7 +35,7 @@ td {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-/* Clase de la área de texto*/
+/* Clase "textarea" área de texto*/
 
 .textarea{
     background-color: rgb(64, 64, 126);
@@ -58,13 +58,65 @@ border: 1px solid rgb(238, 0, 255);
 
 }
 
-/*Géneros*/
+/* Clase "Géneros" */
 .gen{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* intereses */
+/* Clase "intereses" */
 
 .inte{
     color: rgb(50, 50, 187);
+}
+
+/* ID "footer"*/
+#footer{
+    background-color: rgb(62, 6, 6);
+}
+
+/* ID "contacto" */
+
+#contacto{
+    font-size: 20px;
+    color: azure;
+}
+
+/* Clase "highlight" */
+
+.highlight{
+    background-color: lightyellow;
+}
+
+/* ID "header" */
+#header{
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Selector de " <input type="text"> " (Todos los campos de texto). */
+
+input[type="text"]{
+    border: 2px solid gray;
+}
+
+/* Todas las imágenes */
+
+img{
+    background-color: rgb(107, 27, 75);
+    border: 1px solid blue;
+    padding: 10px 10px 10px 10px;
+    width: 400px;
+    height: 300px;
+}
+
+/* Main */
+main{
+    width: 600px;
+    background-color: rgb(34, 34, 52);
+    border: 10px solid green;
+    margin: 2px;
+}
+
+.parr1{
+    color: aliceblue;
 }
