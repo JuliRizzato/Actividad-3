@@ -1,7 +1,7 @@
 /* Todos los párrafos*/
 
 p {
- color: red;
+ color: rgb(74, 39, 39);
  font-size: 20px;
 }
 
@@ -38,7 +38,7 @@ td {
 /* Clase "textarea" área de texto*/
 
 .textarea{
-    background-color: rgb(64, 64, 126);
+    background-color: rgb(121, 121, 194);
 }
 
 /* Todos los label */
@@ -54,7 +54,7 @@ button{
     background-color: rgb(0, 255, 255);
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-border: 1px solid rgb(238, 0, 255);
+    border: 1px solid rgb(238, 0, 255);
 
 }
 
@@ -71,14 +71,16 @@ border: 1px solid rgb(238, 0, 255);
 
 /* ID "footer"*/
 #footer{
-    background-color: rgb(62, 6, 6);
+    border: 5px solid black;
+    border-radius: 30px;
+    background-color: rgb(114, 83, 83);
 }
 
 /* ID "contacto" */
 
 #contacto{
     font-size: 20px;
-    color: azure;
+    color: rgb(85, 122, 141);
 }
 
 /* Clase "highlight" */
@@ -111,12 +113,54 @@ img{
 
 /* Main */
 main{
-    width: 600px;
-    background-color: rgb(34, 34, 52);
+    padding-left: 100px;
+    box-sizing: border-box;
+    background-color: rgb(126, 126, 150);
     border: 10px solid green;
     margin: 2px;
+    color: rgb(79, 44, 112);
+    border-radius: 20px;
 }
+
+/* Clase "parr1"*/
 
 .parr1{
     color: aliceblue;
+}
+/* El Encabezado*/
+header{
+    padding-left: 500px;
+    background-color: cornflowerblue;
+    border-radius: 500px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+/* Id "body" (de "enlaces_navegacion.html"*/
+
+#body{
+    background-color: rgb(121, 71, 91);
+}
+
+/* Clase "box */
+.box{
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+
+
+.red-box{
+    background-color: rgb(120, 21, 21);
+}
+
+.blue-box{
+    background-color: blue;
+}
+
+.green-box{
+    background-color: green;
 }
