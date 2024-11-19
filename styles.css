@@ -129,11 +129,12 @@ main{
 }
 /* El Encabezado*/
 header{
-    padding-left: 500px;
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: cornflowerblue;
-    border-radius: 500px;
-    border: 2px solid black;
-    box-sizing: border-box;
+    color: white;
+    z-index: 1000;
 }
 
 /* Id "body" (de "enlaces_navegacion.html"*/
@@ -151,7 +152,7 @@ header{
     box-sizing: border-box;
 }
 
-
+/*Clases para ponerle colores a las cajas*/
 
 .red-box{
     background-color: rgb(120, 21, 21);
@@ -163,4 +164,19 @@ header{
 
 .green-box{
     background-color: green;
+}
+
+video{
+    background-color: aqua;
+    border: 5px solid black;
+}
+
+/* Éste id es para editar el body de "index.html" */
+
+#index{
+
+}
+
+body{
+    padding-top: 260px;
 }
