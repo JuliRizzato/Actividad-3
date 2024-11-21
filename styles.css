@@ -1,182 +1,233 @@
 /* Todos los párrafos*/
-
 p {
- color: rgb(74, 39, 39);
- font-size: 20px;
-}
-
-/* Todos los ítulos */
-
-h1 {
-    color: rgb(48, 75, 8);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 32px;
-}
-
-/* Todos los encabezados de tabla */
-
-th {
-    color: blue;
- font-size: 25px;
-}
-
-/* Todos los datos de tabla */
-
-td {
-    color: darkturquoise;
+    color: rgb(74, 39, 39);
     font-size: 20px;
+   }
+   
+   /* Todos los ítulos */
+   
+   h1 {
+       color: rgb(48, 75, 8);
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 32px;
+   }
+   
+   /* Todos los encabezados de tabla */
+   
+   th {
+       color: blue;
+    font-size: 25px;
+   }
+   
+   /* Todos los datos de tabla */
+   
+   td {
+       color: darkturquoise;
+       font-size: 20px;
+   }
+   
+   /* Clase Párrafo */
+   
+   .parrafo {
+       color: rgb(143, 112, 40);
+       font-size: 20px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+   
+   /* Clase "textarea" área de texto*/
+   
+   .textarea{
+       background-color: rgb(121, 121, 194);
+   }
+   
+   /* Todos los label */
+   
+   label{
+       font-size: 18px;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   
+   /* Todos los botones */
+   
+   button{
+       background-color: rgb(0, 255, 255);
+       font-size: 24px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       border: 1px solid rgb(238, 0, 255);
+   
+   }
+   
+   /* Clase "Géneros" */
+   .gen{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   
+   /* Clase "intereses" */
+   
+   .inte{
+       color: rgb(50, 50, 187);
+   }
+   
+   /* ID "footer"*/
+   #footer{
+       border: 5px solid black;
+       border-radius: 30px;
+       background-color: rgb(114, 83, 83);
+   }
+   
+   /* ID "contacto" */
+   
+   #contacto{
+       font-size: 20px;
+       color: rgb(85, 122, 141);
+   }
+   
+   /* Clase "highlight" */
+   
+   .highlight{
+       background-color: lightyellow;
+   }
+   
+   /* ID "header" */
+   #header{
+       font-size: 24px;
+       text-align: center;
+   }
+   
+   /* Selector de " <input type="text"> " (Todos los campos de texto). */
+   
+   input[type="text"]{
+       border: 2px solid gray;
+   }
+   
+   /* Todas las imágenes */
+   
+   img{
+       background-color: rgb(107, 27, 75);
+       border: 1px solid blue;
+       padding: 10px 10px 10px 10px;
+       width: 400px;
+       height: 300px;
+   }
+   
+   /* Main */
+   main{
+       padding-left: 100px;
+       box-sizing: border-box;
+       background-color: rgb(126, 126, 150);
+       border: 10px solid green;
+       margin: 2px;
+       color: rgb(79, 44, 112);
+       border-radius: 20px;
+   }
+   
+   /* Clase "parr1"*/
+   
+   .parr1{
+       color: aliceblue;
+   }
+   /* El Encabezado*/
+   header{
+       position: fixed;
+       top: 0;
+       width: 100%;
+       background-color: cornflowerblue;
+       color: white;
+       z-index: 1000;
+   }
+   
+   /* Id "body" (de "enlaces_navegacion.html"*/
+   
+   #body{
+       background-color: rgb(121, 71, 91);
+   }
+   
+   /* Clase "box */
+   .box{
+       width: 200px;
+       padding: 15px;
+       margin: 10px;
+       border: 2px solid black;
+       box-sizing: border-box;
+   }
+   
+   /*Clases para ponerle colores a las cajas*/
+   
+   .red-box{
+       background-color: rgb(120, 21, 21);
+   }
+   
+   .blue-box{
+       background-color: blue;
+   }
+   
+   .green-box{
+       background-color: green;
+   }
+   
+   video{
+       background-color: aqua;
+       border: 5px solid black;
+   }
+   
+   /* Éste id es para editar el body de "index.html" */
+   
+   #index{
+   
+   }
+   
+   body{
+       padding-top: 260px;
+   }
+   
+.contenedorflex{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px solid;
+    justify-content: center
 }
 
-/* Clase Párrafo */
-
-.parrafo {
-    color: rgb(143, 112, 40);
-    font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-/* Clase "textarea" área de texto*/
-
-.textarea{
-    background-color: rgb(121, 121, 194);
-}
-
-/* Todos los label */
-
-label{
-    font-size: 18px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-/* Todos los botones */
-
-button{
-    background-color: rgb(0, 255, 255);
-    font-size: 24px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 1px solid rgb(238, 0, 255);
-
-}
-
-/* Clase "Géneros" */
-.gen{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-/* Clase "intereses" */
-
-.inte{
-    color: rgb(50, 50, 187);
-}
-
-/* ID "footer"*/
-#footer{
-    border: 5px solid black;
-    border-radius: 30px;
-    background-color: rgb(114, 83, 83);
-}
-
-/* ID "contacto" */
-
-#contacto{
-    font-size: 20px;
-    color: rgb(85, 122, 141);
-}
-
-/* Clase "highlight" */
-
-.highlight{
-    background-color: lightyellow;
-}
-
-/* ID "header" */
-#header{
-    font-size: 24px;
-    text-align: center;
-}
-
-/* Selector de " <input type="text"> " (Todos los campos de texto). */
-
-input[type="text"]{
-    border: 2px solid gray;
-}
-
-/* Todas las imágenes */
-
-img{
-    background-color: rgb(107, 27, 75);
-    border: 1px solid blue;
-    padding: 10px 10px 10px 10px;
-    width: 400px;
-    height: 300px;
-}
-
-/* Main */
-main{
-    padding-left: 100px;
-    box-sizing: border-box;
-    background-color: rgb(126, 126, 150);
-    border: 10px solid green;
-    margin: 2px;
-    color: rgb(79, 44, 112);
-    border-radius: 20px;
-}
-
-/* Clase "parr1"*/
-
-.parr1{
-    color: aliceblue;
-}
-/* El Encabezado*/
-header{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: cornflowerblue;
-    color: white;
-    z-index: 1000;
-}
-
-/* Id "body" (de "enlaces_navegacion.html"*/
-
-#body{
-    background-color: rgb(121, 71, 91);
-}
-
-/* Clase "box */
-.box{
-    width: 200px;
-    padding: 15px;
-    margin: 10px;
-    border: 2px solid black;
-    box-sizing: border-box;
-}
-
-/*Clases para ponerle colores a las cajas*/
-
-.red-box{
-    background-color: rgb(120, 21, 21);
-}
-
-.blue-box{
-    background-color: blue;
-}
-
-.green-box{
-    background-color: green;
-}
-
-video{
-    background-color: aqua;
-    border: 5px solid black;
-}
-
-/* Éste id es para editar el body de "index.html" */
-
-#index{
-
+.item{
+    border: solid green;
+    margin: 12px;
 }
 
 body{
-    padding-top: 260px;
+    padding-top: 100px;
+}
+
+#a{
+border: dotted;
+}
+
+#b{
+border: solid pink;
+}
+
+#c{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+aside{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    padding-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: blanchedalmond;
+}
+
+img{
+    position: relative;
+    width: 40%;
+    padding-right: 15px;
+    float: left;
+}
+
+footer{
+    position: relative;
+    width: 100%;
 }
