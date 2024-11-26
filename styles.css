@@ -231,3 +231,16 @@ footer{
     position: relative;
     width: 100%;
 }
+
+   /*   #{}    */
+
+#flexbody{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
