@@ -12,3 +12,7 @@ const cerrarMenu = document.querySelector('.cerrar-menu');
     cerrarMenu.addEventListener('click', () => {
     menu.style.display = 'none'; // Ocultar el menú
     });
+
+
+
+
