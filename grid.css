@@ -23,7 +23,7 @@ body{
 .item2 {
     border: solid 2px pink;
     grid-column: 3 / 3;
-    grid-row: 2 / 2;
+    grid-row: 3 / 2;
 }
 .item3 {
     border: solid 2px blue;
