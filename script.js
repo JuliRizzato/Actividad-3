@@ -132,23 +132,24 @@ for(let i = 5; i < 10; i++){
 
 /* 4)Crea un programa que calcule el factorial de un número usando while. */
 
-let factorial = parseInt(prompt("Ingrese un número para calcular su factorial:"));
+
+/* let factorial = parseInt(prompt("Ingrese un número para calcular su factorial:"));
 let contadorfactorial = factorial;
 let resultado = 0;
 while(contadorfactorial >= 1){
     resultado = factorial * contadorfactorial;
     contadorfactorial--;
     alert(resultado);
-}
+}  */
 
 /* 5)Escribe un condicional que determine si una persona puede votar según su edad. */
 
-let edad = parseInt(prompt("Ingrese su edad"));
+ /* let edad = prompt("Ingrese su edad");
 if(edad < 16){
     alert(`Tiene ${edad} años, no puede votar`);
 } else{
     alert(`Tiene ${edad} años, puede votar`);
-}
+} */
 
 /* 6)Imprime los números pares entre 1 y 20 con un bucle for. */
 
@@ -172,6 +173,66 @@ while(a >= 1){
 
 
 /* 10)Crea una calculadora básica que permita sumar o restar según el operador ingresado. */
+
+
+
+
+/* Declara una función que calcule el área de un triángulo. */
+
+
+/*
+let nombre
+function saludar(nombre){
+    nombre = prompt(`¿Cómo te llamas?`);
+    return `Hola, ${nombre.toUpperCase()}`; 
+};
+       alert(saludar(nombre));
+*/
+
+const suma = function (a, b){
+    return a + b;
+};
+console.log(suma(5, 30));
+
+const resta = (a, b) => a - b;
+console.log(resta(100, 7))
+
+
+function calculo(base, altura){
+    return (base * altura) / 2;
+}
+console.log("Área del triángulo: " + calculo(10, 5))
+
+
+const multiplicar = (a, b) => a * b;
+console.log(multiplicar (2, 4))
+
+
+
+/* Escribe una función que convierta una palabra a mayúsculas. */
+
+
+/*
+function saludar(nombre){
+    nombre = prompt(`¿Cómo te llamas?`);
+    return `Hola, ${nombre.toUpperCase()}`; 
+};
+       alert(saludar(nombre));
+*/
+
+       /* Haz una función que reciba dos números y retorne el mayor de ellos */
+
+function mayor(a, b){
+    let numMayor;
+    if (a > b) {
+        return a;
+    } else  if{
+        return b;
+    } else{
+        
+    }
+}
+console.log(mayor(5000, 86));
 
 
 
