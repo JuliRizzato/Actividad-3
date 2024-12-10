@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.encabezado{
+    display: flex;
+    align-items: center;
+    background-color: rgb(63, 109, 97);
+    padding: 10px 20px;
+    height: 125px;
+}
+.titulo{
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+    line-height: 0.6;
+}
+.logo{
+    height: 120px;
+    padding-left: 20px;
+}
+.iconos{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+    padding-right: 50px;
+}
+.iconos-items{
+    height: 40px;
+    background-color: rgb(63, 109, 97);
+    border-radius: 300px;
+    padding: 5px;
+}
+.pad{
+    padding-left: 75px;
+    padding-right: 15px;
+}
+
+
+            /*      Menú lateral     */
+.hamburguesa{
+    display: flex;
+    align-items: center;
+    height: 25px;
+    width: 30px;
+    padding: 5px;
+    border: solid 3px white;
+    cursor: pointer;
+    background-color: rgb(63, 109, 97);
+}
+button{
+    border: none;
+    margin: 0;
+    background-color: rgb(63, 109, 97);
+    cursor: pointer;
+}
+.menu-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+.logo2{
+    height: 90px;
+    padding-left: 30px;
+    margin-bottom: 0;
+}
+.menu{
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 325px;
+    background-color: rgb(63, 109, 97);
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: -3px 0 5px rgba(0, 0, 0, 0.2);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+}
+.menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.menu .nav{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px 20px;
+    margin-top: 10px;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+}
+.menu .nav:hover{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.cerrar-menu{
+    background: none;
+    border: none;
+    font-size: 40px;
+    color: white;
+    background-color: #000;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.nav{
+    margin-top: 0;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    margin-bottom: 20px;
+}
+.nav strong{
+    font-weight: bold;
+}
+body.menu-activo {
+    overflow: hidden; /* Evita que se pueda desplazar la página cuando el menú está abierto */
+}
+.fondo-oscuro {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+.fondo-oscuro.activo {
+    opacity: 1;
+    pointer-events: all; /* Permite cerrar el menú al hacer clic en el fondo */
+}
+.menu.mostrar-menu {
+    transform: translateX(0);
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu.mostrar-menu .nav {
+    opacity: 1;
+    transform: translateY(0); /* Regresa a su posición original */
+}
+/* Animación escalonada */
+.menu.mostrar-menu .nav:nth-child(1) {
+    transition-delay: 0.1s;
+}
+.menu.mostrar-menu .nav:nth-child(2) {
+    transition-delay: 0.2s;
+}
+.menu.mostrar-menu .nav:nth-child(3) {
+    transition-delay: 0.3s;
+}
+.menu.mostrar-menu .nav:nth-child(4) {
+    transition-delay: 0.4s;
+}
+.menu.mostrar-menu .nav:nth-child(5) {
+    transition-delay: 0.5s;
+}
+.menu.mostrar-menu .nav:nth-child(6) {
+    transition-delay: 0.6s;
+}
+
+                /*    Carrusel    */
+.carrusel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+  height: 300px;
+}
+.carrusel-imagenes {
+  display: flex; 
+  transition: transform 0.5s ease;
+  width: 100%;
+}
+.imagen {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}        
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    pad: 10px;
+    z-index: 1000;
+}
+.prev{
+    left: 10px;
+}
+.next{
+    right: 10px;
+}
