@@ -226,13 +226,76 @@ function mayor(a, b){
     let numMayor;
     if (a > b) {
         return a;
-    } else  if{
-        return b;
     } else{
-        
-    }
-}
+        return b;
+    
+}}
 console.log(mayor(5000, 86));
 
 
+/* Haz una función que calcule la suma de los números de un arreglo. */
 
+let numeros = [1, 2, 3, 4, 5];
+let total = numeros.reduce((a, b) => a + b, 0);
+console.log(total);
+
+
+/*
+function sumaArreglo(arr){
+return arr.reduce((acumulador, numero) => acumulador + numero, 0);
+}
+console.log(sumaArreglo(1, 2, 3, 4 ,5));
+*/
+console.log("Calculadora")
+
+
+
+
+
+function calcular(num1, num2, operador) {
+    let resultado;
+    switch (operador) {
+        case '+':
+            resultado = num1 + num2;
+            break;
+        case '-':
+            resultado = num1 - num2;
+            break;
+        case '*':
+            resultado = num1 * num2;
+            break;
+        case '/':
+            if (num2 === 0) {
+                return 'Error: División por cero';
+            } else{
+                resultado = num1 / num2;
+            }
+           
+            break;
+        default:
+            return 'Operador no válido';
+    }
+    return resultado;
+}
+
+// Ejemplo de uso:
+console.log(calcular(5, 3, '+')); // 8
+console.log(calcular(5, 3, '-')); // 2
+console.log(calcular(5, 3, '*')); // 15
+console.log(calcular(5, 3, '/')); // 1.666...
+console.log(calcular(5, 0, '/')); // Error: División por cero
+
+
+
+const parr = document.getElementById("parr");
+parr.addEventListener("click", () =>{
+parr.style.backgroundColor = "yellow";
+});
+
+//Implementa un contador que aumente cada vez que se haga clic en un botón.
+
+let nombres3 = ["Julián", "Marcos", "Pamela", "Pierina"];
+console.log(nombres3);
+
+nombres3.push("Marta", "Carlos");
+console.log(nombres3)
